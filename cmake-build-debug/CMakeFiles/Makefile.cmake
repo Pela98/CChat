@@ -7,10 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "../CMakeLists.txt"
-  "CMakeFiles/3.14.2/CMakeCCompiler.cmake"
-  "CMakeFiles/3.14.2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.14.2/CMakeSystem.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -33,6 +29,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/UnixPaths.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/ProcessorCount.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.14.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.14.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.14.2/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:

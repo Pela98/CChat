@@ -1,3 +1,3 @@
-/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles/CChat.dir
-/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/CChat.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/edit_cache.dir

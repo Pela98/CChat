@@ -48,10 +48,10 @@ RM = /home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pela/CLionProjects/CChat
+CMAKE_SOURCE_DIR = /home/pela/Repositories/CChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pela/CLionProjects/CChat/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pela/Repositories/CChat/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles /home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,33 @@ Message.s: Message.cpp.s
 Message.cpp.s:
 	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Message.cpp.s
 .PHONY : Message.cpp.s
+
+MessageNotifier.o: MessageNotifier.cpp.o
+
+.PHONY : MessageNotifier.o
+
+# target to build an object file
+MessageNotifier.cpp.o:
+	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/MessageNotifier.cpp.o
+.PHONY : MessageNotifier.cpp.o
+
+MessageNotifier.i: MessageNotifier.cpp.i
+
+.PHONY : MessageNotifier.i
+
+# target to preprocess a source file
+MessageNotifier.cpp.i:
+	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/MessageNotifier.cpp.i
+.PHONY : MessageNotifier.cpp.i
+
+MessageNotifier.s: MessageNotifier.cpp.s
+
+.PHONY : MessageNotifier.s
+
+# target to generate assembly for a file
+MessageNotifier.cpp.s:
+	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/MessageNotifier.cpp.s
+.PHONY : MessageNotifier.cpp.s
 
 Observer.o: Observer.cpp.o
 
@@ -330,6 +357,9 @@ help:
 	@echo "... Message.o"
 	@echo "... Message.i"
 	@echo "... Message.s"
+	@echo "... MessageNotifier.o"
+	@echo "... MessageNotifier.i"
+	@echo "... MessageNotifier.s"
 	@echo "... Observer.o"
 	@echo "... Observer.i"
 	@echo "... Observer.s"

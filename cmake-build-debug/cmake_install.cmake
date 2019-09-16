@@ -1,4 +1,4 @@
-# Install script for directory: /home/pela/CLionProjects/CChat
+# Install script for directory: /home/pela/Repositories/CChat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pela/CLionProjects/CChat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pela/Repositories/CChat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

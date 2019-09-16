@@ -15,6 +15,14 @@ CMakeFiles/CChat.dir/ContactList.cpp.o: ../User.h
 CMakeFiles/CChat.dir/Message.cpp.o: ../Message.cpp
 CMakeFiles/CChat.dir/Message.cpp.o: ../Message.h
 
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../Chat.h
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../Message.h
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../MessageNotifier.cpp
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../MessageNotifier.h
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../Observer.h
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../Subject.h
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../User.h
+
 CMakeFiles/CChat.dir/Observer.cpp.o: ../Observer.cpp
 CMakeFiles/CChat.dir/Observer.cpp.o: ../Observer.h
 

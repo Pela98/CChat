@@ -4,7 +4,3 @@
 
 #include "ContactList.h"
 #include <fstream>
-
-void ContactList(std::string filename = "ContactList.txt"){
-
-}

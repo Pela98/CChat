@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pela/CLionProjects/CChat/cmake-build-debug"/>
+				<Option working_dir="/home/pela/Repositories/CChat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/pela/CLionProjects/CChat/cmake-build-debug"/>
+				<Option working_dir="/home/pela/Repositories/CChat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CChat">
-				<Option output="/home/pela/CLionProjects/CChat/cmake-build-debug/CChat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pela/CLionProjects/CChat/cmake-build-debug"/>
+				<Option output="/home/pela/Repositories/CChat/cmake-build-debug/CChat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pela/Repositories/CChat/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 CChat"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 CChat"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CChat/fast">
-				<Option output="/home/pela/CLionProjects/CChat/cmake-build-debug/CChat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pela/CLionProjects/CChat/cmake-build-debug"/>
+				<Option output="/home/pela/Repositories/CChat/cmake-build-debug/CChat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pela/Repositories/CChat/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,63 +67,69 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 CChat/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 CChat/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/pela/CLionProjects/CChat/cmake-build-debug"/>
+				<Option working_dir="/home/pela/Repositories/CChat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/CLionProjects/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pela/Repositories/CChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pela/CLionProjects/CChat/Chat.cpp">
+		<Unit filename="/home/pela/Repositories/CChat/Chat.cpp">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/Chat.h">
+		<Unit filename="/home/pela/Repositories/CChat/Chat.h">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/ContactList.cpp">
+		<Unit filename="/home/pela/Repositories/CChat/ContactList.cpp">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/ContactList.h">
+		<Unit filename="/home/pela/Repositories/CChat/ContactList.h">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/Message.cpp">
+		<Unit filename="/home/pela/Repositories/CChat/Message.cpp">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/Message.h">
+		<Unit filename="/home/pela/Repositories/CChat/Message.h">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/Observer.cpp">
+		<Unit filename="/home/pela/Repositories/CChat/MessageNotifier.cpp">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/Observer.h">
+		<Unit filename="/home/pela/Repositories/CChat/MessageNotifier.h">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/Subject.cpp">
+		<Unit filename="/home/pela/Repositories/CChat/Observer.cpp">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/Subject.h">
+		<Unit filename="/home/pela/Repositories/CChat/Observer.h">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/User.cpp">
+		<Unit filename="/home/pela/Repositories/CChat/Subject.cpp">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/User.h">
+		<Unit filename="/home/pela/Repositories/CChat/Subject.h">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/main.cpp">
+		<Unit filename="/home/pela/Repositories/CChat/User.cpp">
 			<Option target="CChat"/>
 		</Unit>
-		<Unit filename="/home/pela/CLionProjects/CChat/CMakeLists.txt">
+		<Unit filename="/home/pela/Repositories/CChat/User.h">
+			<Option target="CChat"/>
+		</Unit>
+		<Unit filename="/home/pela/Repositories/CChat/main.cpp">
+			<Option target="CChat"/>
+		</Unit>
+		<Unit filename="/home/pela/Repositories/CChat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

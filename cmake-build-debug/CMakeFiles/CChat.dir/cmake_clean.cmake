@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CChat.dir/Subject.cpp.o"
   "CMakeFiles/CChat.dir/Chat.cpp.o"
   "CMakeFiles/CChat.dir/ContactList.cpp.o"
+  "CMakeFiles/CChat.dir/MessageNotifier.cpp.o"
   "CChat.pdb"
   "CChat"
 )

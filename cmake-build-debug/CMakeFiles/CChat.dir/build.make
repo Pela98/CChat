@@ -43,10 +43,10 @@ RM = /home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pela/CLionProjects/CChat
+CMAKE_SOURCE_DIR = /home/pela/Repositories/CChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pela/CLionProjects/CChat/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pela/Repositories/CChat/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CChat.dir/depend.make
@@ -59,94 +59,107 @@ include CMakeFiles/CChat.dir/flags.make
 
 CMakeFiles/CChat.dir/main.cpp.o: CMakeFiles/CChat.dir/flags.make
 CMakeFiles/CChat.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CChat.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/main.cpp.o -c /home/pela/CLionProjects/CChat/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CChat.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/main.cpp.o -c /home/pela/Repositories/CChat/main.cpp
 
 CMakeFiles/CChat.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/CLionProjects/CChat/main.cpp > CMakeFiles/CChat.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/main.cpp > CMakeFiles/CChat.dir/main.cpp.i
 
 CMakeFiles/CChat.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/CLionProjects/CChat/main.cpp -o CMakeFiles/CChat.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/main.cpp -o CMakeFiles/CChat.dir/main.cpp.s
 
 CMakeFiles/CChat.dir/User.cpp.o: CMakeFiles/CChat.dir/flags.make
 CMakeFiles/CChat.dir/User.cpp.o: ../User.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CChat.dir/User.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/User.cpp.o -c /home/pela/CLionProjects/CChat/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CChat.dir/User.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/User.cpp.o -c /home/pela/Repositories/CChat/User.cpp
 
 CMakeFiles/CChat.dir/User.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/User.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/CLionProjects/CChat/User.cpp > CMakeFiles/CChat.dir/User.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/User.cpp > CMakeFiles/CChat.dir/User.cpp.i
 
 CMakeFiles/CChat.dir/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/User.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/CLionProjects/CChat/User.cpp -o CMakeFiles/CChat.dir/User.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/User.cpp -o CMakeFiles/CChat.dir/User.cpp.s
 
 CMakeFiles/CChat.dir/Message.cpp.o: CMakeFiles/CChat.dir/flags.make
 CMakeFiles/CChat.dir/Message.cpp.o: ../Message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CChat.dir/Message.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Message.cpp.o -c /home/pela/CLionProjects/CChat/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CChat.dir/Message.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Message.cpp.o -c /home/pela/Repositories/CChat/Message.cpp
 
 CMakeFiles/CChat.dir/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/Message.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/CLionProjects/CChat/Message.cpp > CMakeFiles/CChat.dir/Message.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/Message.cpp > CMakeFiles/CChat.dir/Message.cpp.i
 
 CMakeFiles/CChat.dir/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/Message.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/CLionProjects/CChat/Message.cpp -o CMakeFiles/CChat.dir/Message.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/Message.cpp -o CMakeFiles/CChat.dir/Message.cpp.s
 
 CMakeFiles/CChat.dir/Observer.cpp.o: CMakeFiles/CChat.dir/flags.make
 CMakeFiles/CChat.dir/Observer.cpp.o: ../Observer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CChat.dir/Observer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Observer.cpp.o -c /home/pela/CLionProjects/CChat/Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CChat.dir/Observer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Observer.cpp.o -c /home/pela/Repositories/CChat/Observer.cpp
 
 CMakeFiles/CChat.dir/Observer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/Observer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/CLionProjects/CChat/Observer.cpp > CMakeFiles/CChat.dir/Observer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/Observer.cpp > CMakeFiles/CChat.dir/Observer.cpp.i
 
 CMakeFiles/CChat.dir/Observer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/Observer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/CLionProjects/CChat/Observer.cpp -o CMakeFiles/CChat.dir/Observer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/Observer.cpp -o CMakeFiles/CChat.dir/Observer.cpp.s
 
 CMakeFiles/CChat.dir/Subject.cpp.o: CMakeFiles/CChat.dir/flags.make
 CMakeFiles/CChat.dir/Subject.cpp.o: ../Subject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CChat.dir/Subject.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Subject.cpp.o -c /home/pela/CLionProjects/CChat/Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CChat.dir/Subject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Subject.cpp.o -c /home/pela/Repositories/CChat/Subject.cpp
 
 CMakeFiles/CChat.dir/Subject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/Subject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/CLionProjects/CChat/Subject.cpp > CMakeFiles/CChat.dir/Subject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/Subject.cpp > CMakeFiles/CChat.dir/Subject.cpp.i
 
 CMakeFiles/CChat.dir/Subject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/Subject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/CLionProjects/CChat/Subject.cpp -o CMakeFiles/CChat.dir/Subject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/Subject.cpp -o CMakeFiles/CChat.dir/Subject.cpp.s
 
 CMakeFiles/CChat.dir/Chat.cpp.o: CMakeFiles/CChat.dir/flags.make
 CMakeFiles/CChat.dir/Chat.cpp.o: ../Chat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CChat.dir/Chat.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Chat.cpp.o -c /home/pela/CLionProjects/CChat/Chat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CChat.dir/Chat.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/Chat.cpp.o -c /home/pela/Repositories/CChat/Chat.cpp
 
 CMakeFiles/CChat.dir/Chat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/Chat.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/CLionProjects/CChat/Chat.cpp > CMakeFiles/CChat.dir/Chat.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/Chat.cpp > CMakeFiles/CChat.dir/Chat.cpp.i
 
 CMakeFiles/CChat.dir/Chat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/Chat.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/CLionProjects/CChat/Chat.cpp -o CMakeFiles/CChat.dir/Chat.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/Chat.cpp -o CMakeFiles/CChat.dir/Chat.cpp.s
 
 CMakeFiles/CChat.dir/ContactList.cpp.o: CMakeFiles/CChat.dir/flags.make
 CMakeFiles/CChat.dir/ContactList.cpp.o: ../ContactList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CChat.dir/ContactList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/ContactList.cpp.o -c /home/pela/CLionProjects/CChat/ContactList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CChat.dir/ContactList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/ContactList.cpp.o -c /home/pela/Repositories/CChat/ContactList.cpp
 
 CMakeFiles/CChat.dir/ContactList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/ContactList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/CLionProjects/CChat/ContactList.cpp > CMakeFiles/CChat.dir/ContactList.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/ContactList.cpp > CMakeFiles/CChat.dir/ContactList.cpp.i
 
 CMakeFiles/CChat.dir/ContactList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/ContactList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/CLionProjects/CChat/ContactList.cpp -o CMakeFiles/CChat.dir/ContactList.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/ContactList.cpp -o CMakeFiles/CChat.dir/ContactList.cpp.s
+
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: CMakeFiles/CChat.dir/flags.make
+CMakeFiles/CChat.dir/MessageNotifier.cpp.o: ../MessageNotifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CChat.dir/MessageNotifier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CChat.dir/MessageNotifier.cpp.o -c /home/pela/Repositories/CChat/MessageNotifier.cpp
+
+CMakeFiles/CChat.dir/MessageNotifier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CChat.dir/MessageNotifier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/MessageNotifier.cpp > CMakeFiles/CChat.dir/MessageNotifier.cpp.i
+
+CMakeFiles/CChat.dir/MessageNotifier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CChat.dir/MessageNotifier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/MessageNotifier.cpp -o CMakeFiles/CChat.dir/MessageNotifier.cpp.s
 
 # Object files for target CChat
 CChat_OBJECTS = \
@@ -156,7 +169,8 @@ CChat_OBJECTS = \
 "CMakeFiles/CChat.dir/Observer.cpp.o" \
 "CMakeFiles/CChat.dir/Subject.cpp.o" \
 "CMakeFiles/CChat.dir/Chat.cpp.o" \
-"CMakeFiles/CChat.dir/ContactList.cpp.o"
+"CMakeFiles/CChat.dir/ContactList.cpp.o" \
+"CMakeFiles/CChat.dir/MessageNotifier.cpp.o"
 
 # External object files for target CChat
 CChat_EXTERNAL_OBJECTS =
@@ -168,9 +182,10 @@ CChat: CMakeFiles/CChat.dir/Observer.cpp.o
 CChat: CMakeFiles/CChat.dir/Subject.cpp.o
 CChat: CMakeFiles/CChat.dir/Chat.cpp.o
 CChat: CMakeFiles/CChat.dir/ContactList.cpp.o
+CChat: CMakeFiles/CChat.dir/MessageNotifier.cpp.o
 CChat: CMakeFiles/CChat.dir/build.make
 CChat: CMakeFiles/CChat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CChat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CChat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CChat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +198,6 @@ CMakeFiles/CChat.dir/clean:
 .PHONY : CMakeFiles/CChat.dir/clean
 
 CMakeFiles/CChat.dir/depend:
-	cd /home/pela/CLionProjects/CChat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pela/CLionProjects/CChat /home/pela/CLionProjects/CChat /home/pela/CLionProjects/CChat/cmake-build-debug /home/pela/CLionProjects/CChat/cmake-build-debug /home/pela/CLionProjects/CChat/cmake-build-debug/CMakeFiles/CChat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pela/Repositories/CChat /home/pela/Repositories/CChat /home/pela/Repositories/CChat/cmake-build-debug /home/pela/Repositories/CChat/cmake-build-debug /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/CChat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CChat.dir/depend
 
