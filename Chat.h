@@ -33,7 +33,7 @@ public:
     void readMessage(int i){
         if(i>0 && i<messages.size()) {
             if (messages[i].getSender() == otherUser.getNumber()) {
-                std::cout << otherUser.getName() << std::endl;
+                std::cout << otherUser.getName() << " - " << messages[i].getTimestamp() << std::endl;
                 std::cout << messages[i].getText() << std::endl;
                 messages[i].setRead(true);
                 this->notify();

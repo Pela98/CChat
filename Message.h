@@ -31,13 +31,20 @@ public:
     void setRead(bool read) {
         Message::read = read;
     }
+    const std::string &getTimestamp() const {
+        return timestamp;
+    }
 
+    void setTimestamp(const std::string &timestamp) {
+        Message::timestamp = timestamp;
+    }
 
 
 private:
 
     bool read;
     std::string sender, receiver, text, timestamp;
+
 };
 
 

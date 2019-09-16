@@ -42,6 +42,10 @@ public:
                 break;
             }
     }
+    void showContacts(){
+        for (auto con:contacts)
+            std::cout << con->getName() << " -- " << con->getNumber() << std::endl;
+    }
 private:
     std::list<User*> contacts;
     std::fstream memory;

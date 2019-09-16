@@ -33,5 +33,12 @@ CMakeFiles/CChat.dir/Subject.cpp.o: ../Subject.h
 CMakeFiles/CChat.dir/User.cpp.o: ../User.cpp
 CMakeFiles/CChat.dir/User.cpp.o: ../User.h
 
+CMakeFiles/CChat.dir/main.cpp.o: ../Chat.h
+CMakeFiles/CChat.dir/main.cpp.o: ../ContactList.h
+CMakeFiles/CChat.dir/main.cpp.o: ../Message.h
+CMakeFiles/CChat.dir/main.cpp.o: ../MessageNotifier.h
+CMakeFiles/CChat.dir/main.cpp.o: ../Observer.h
+CMakeFiles/CChat.dir/main.cpp.o: ../Subject.h
+CMakeFiles/CChat.dir/main.cpp.o: ../User.h
 CMakeFiles/CChat.dir/main.cpp.o: ../main.cpp
 

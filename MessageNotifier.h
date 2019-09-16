@@ -19,10 +19,12 @@ public:
         subject->unsubscribe(this);
     }
     virtual void update() override{
-        this->draw(subject->getUnredMessages());
+        if (active)
+            this->draw(subject->getUnredMessages());
     }
     void draw(int um){
         std::cout << "Hai " << um <<" messaggi non letti" << std::endl;
+        std::cout << "ultimo messaggio da parte di " << subject->lastMessage().getSender() << ": " << subject->lastMessage().getText() << "..." << std::endl;
     }
 
 private:
