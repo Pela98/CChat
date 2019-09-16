@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pela/CLionProjects/CChat/ContactList.cpp
+ContactList.h
+/home/pela/CLionProjects/CChat/ContactList.h
+fstream
+-
+
+/home/pela/CLionProjects/CChat/ContactList.h
+User.h
+/home/pela/CLionProjects/CChat/User.h
+list
+-
+fstream
+-
+iostream
+-
+
+/home/pela/CLionProjects/CChat/User.h
+string
+-
+
