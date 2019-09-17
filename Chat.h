@@ -26,12 +26,14 @@ public:
             messages.push_back(newMsg);
         if(myUser.getNumber()==newMsg.getReceiver())
             this->notify();
+        else
+            throw std::invalid_argument("invalid argument");
     }
     const Message& lastMessage() const{
         return messages.back();
     }
     void readMessage(int i){
-        if(i>0 && i<messages.size()) {
+        if(i>=0 && i<messages.size()) {
             if (messages[i].getSender() == otherUser.getNumber()) {
                 std::cout << otherUser.getName() << " - " << messages[i].getTimestamp() << std::endl;
                 std::cout << messages[i].getText() << std::endl;

@@ -20,10 +20,16 @@ list
 iostream
 -
 
+/home/pela/Repositories/CChat/ContactList.cpp
+ContactList.h
+/home/pela/Repositories/CChat/ContactList.h
+fstream
+-
+
 /home/pela/Repositories/CChat/ContactList.h
 User.h
 /home/pela/Repositories/CChat/User.h
-list
+vector
 -
 fstream
 -
@@ -52,6 +58,8 @@ string
 
 /home/pela/Repositories/CChat/main.cpp
 iostream
+-
+list
 -
 User.h
 /home/pela/Repositories/CChat/User.h

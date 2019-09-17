@@ -6,7 +6,7 @@
 #define CCHAT_CONTACTLIST_H
 
 #include "User.h"
-#include <list>
+#include <vector>
 #include <fstream>
 #include <iostream>
 
@@ -15,7 +15,7 @@ public:
     ContactList(std::string filename = "ContactList.txt"){
         memory.open(filename);
         if(!memory.is_open())
-            std::cout << "Non è stata trovata una lista contatti";
+            std::cout << "Non è stata trovata una lista contatti.";
         else
             while (!memory.eof()){
                 std::string tempNumber, tempName;
@@ -25,29 +25,32 @@ public:
             }
     }
     ~ContactList(){
-        for (auto con:contacts){
-            memory<<con->getNumber();
-            memory<<con->getName();
-            contacts.remove(con);
+        for (int i = (contacts.size()-1); i >= 0; i--){
+            memory<<contacts[i]->getNumber();
+            memory<<contacts[i]->getName();
+            contacts.pop_back();
         }
         memory.close();
     }
     void addContact(std::string contactNumber, std::string contactName){
         contacts.push_back(new User(contactNumber,contactName));
     }
-    void removeContact(std::string contactNumber){
-        for (auto con:contacts)
-            if(con->getNumber()==contactNumber){
-                contacts.remove(con);
-                break;
-            }
+    void removeContact(int i){
+        contacts[i]=contacts[(contacts.size()-1)];
+        contacts.pop_back();
     }
     void showContacts(){
-        for (auto con:contacts)
-            std::cout << con->getName() << " -- " << con->getNumber() << std::endl;
+        for (int i = 0; i < contacts.size(); i++)
+            std::cout << i << "- " << contacts[i]->getName() << " -- " << contacts[i]->getNumber() << std::endl;
+    }
+    const int getSize(){
+        return contacts.size();
+    }
+     User& getContact(int i){
+        return *contacts[i];
     }
 private:
-    std::list<User*> contacts;
+    std::vector<User*> contacts;
     std::fstream memory;
 };
 
