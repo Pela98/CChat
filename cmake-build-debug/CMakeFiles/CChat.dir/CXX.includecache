@@ -34,6 +34,10 @@ iostream
 string
 -
 
+/home/pela/Repositories/CChat/MessageNotifier.cpp
+MessageNotifier.h
+/home/pela/Repositories/CChat/MessageNotifier.h
+
 /home/pela/Repositories/CChat/MessageNotifier.h
 Observer.h
 /home/pela/Repositories/CChat/Observer.h
@@ -53,7 +57,9 @@ string
 /home/pela/Repositories/CChat/main.cpp
 iostream
 -
-list
+vector
+-
+time.h
 -
 User.h
 /home/pela/Repositories/CChat/User.h

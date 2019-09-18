@@ -22,11 +22,19 @@ public:
         if (active)
             this->draw(subject->getUnredMessages());
     }
+    void activate(){
+        active = true;
+    }
+    void turnOff(){
+        active = false;
+    }
     void draw(int um){
         std::cout << "Hai " << um <<" messaggi non letti" << std::endl;
         std::cout << "ultimo messaggio da parte di " << subject->lastMessage().getSender() << ": " << subject->lastMessage().getText() << "..." << std::endl;
     }
-
+    Chat* getSubject(){
+        return subject;
+    }
 private:
     bool active;
     Chat* subject;
