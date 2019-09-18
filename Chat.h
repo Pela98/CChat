@@ -22,12 +22,14 @@ public:
             observers.remove(obs);
     }
     void addMessage(const Message& newMsg){
-        if((myUser.getNumber()==newMsg.getReceiver()||myUser.getNumber()==newMsg.getSender())&&(otherUser.getNumber()==newMsg.getSender()||otherUser.getNumber()==newMsg.getReceiver()))
+        if((myUser.getNumber()==newMsg.getReceiver()||myUser.getNumber()==newMsg.getSender())&&(otherUser.getNumber()==newMsg.getSender()||otherUser.getNumber()==newMsg.getReceiver())) {
             messages.push_back(newMsg);
-        if(myUser.getNumber()==newMsg.getReceiver())
-            this->notify();
+            if(myUser.getNumber()==newMsg.getReceiver())
+                this->notify();
+        }
         else
             throw std::invalid_argument("invalid argument");
+
     }
     const Message& lastMessage() const{
         return messages.back();
@@ -39,6 +41,10 @@ public:
                 std::cout << messages[i].getText() << std::endl;
                 messages[i].setRead(true);
                 this->notify();
+            }
+            else{
+                std::cout << "Tu" << " - " << messages[i].getTimestamp() << std::endl;
+                std::cout << messages[i].getText() << std::endl;
             }
         }
         else

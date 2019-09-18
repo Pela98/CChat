@@ -20,23 +20,9 @@ list
 iostream
 -
 
-/home/pela/Repositories/CChat/ContactList.h
-User.h
-/home/pela/Repositories/CChat/User.h
-vector
--
-fstream
--
-iostream
--
-
 /home/pela/Repositories/CChat/Message.h
 string
 -
-
-/home/pela/Repositories/CChat/MessageNotifier.cpp
-MessageNotifier.h
-/home/pela/Repositories/CChat/MessageNotifier.h
 
 /home/pela/Repositories/CChat/MessageNotifier.h
 Observer.h
@@ -65,8 +51,6 @@ User.h
 /home/pela/Repositories/CChat/User.h
 Message.h
 /home/pela/Repositories/CChat/Message.h
-ContactList.h
-/home/pela/Repositories/CChat/ContactList.h
 Chat.h
 /home/pela/Repositories/CChat/Chat.h
 MessageNotifier.h
