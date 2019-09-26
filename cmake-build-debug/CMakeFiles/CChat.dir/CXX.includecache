@@ -17,6 +17,8 @@ vector
 -
 list
 -
+memory
+-
 iostream
 -
 
@@ -29,10 +31,16 @@ Observer.h
 /home/pela/Repositories/CChat/Observer.h
 Chat.h
 /home/pela/Repositories/CChat/Chat.h
+memory
+-
 
 /home/pela/Repositories/CChat/Observer.h
+memory
+-
 
 /home/pela/Repositories/CChat/Subject.h
+memory
+-
 Observer.h
 /home/pela/Repositories/CChat/Observer.h
 
@@ -46,6 +54,8 @@ iostream
 vector
 -
 time.h
+-
+memory
 -
 User.h
 /home/pela/Repositories/CChat/User.h

@@ -56,6 +56,30 @@ CMAKE_BINARY_DIR = /home/pela/Repositories/CChat/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +101,28 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
 # Target rules for targets named CChat
 
 # Build rule for target.
@@ -123,13 +182,78 @@ CChat/fast:
 	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/build
 .PHONY : CChat/fast
 
+#=============================================================================
+# Target rules for targets named runAllTests
+
+# Build rule for target.
+runAllTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runAllTests
+.PHONY : runAllTests
+
+# fast build rule for target.
+runAllTests/fast:
+	$(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
+.PHONY : runAllTests/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f test/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make test/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f test/lib/googletest/googletest/CMakeFiles/gtest.dir/build.make test/lib/googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
 Chat.o: Chat.cpp.o
 
 .PHONY : Chat.o
 
 # target to build an object file
 Chat.cpp.o:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Chat.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Chat.cpp.o
 .PHONY : Chat.cpp.o
 
 Chat.i: Chat.cpp.i
@@ -138,7 +262,7 @@ Chat.i: Chat.cpp.i
 
 # target to preprocess a source file
 Chat.cpp.i:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Chat.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Chat.cpp.i
 .PHONY : Chat.cpp.i
 
 Chat.s: Chat.cpp.s
@@ -147,7 +271,7 @@ Chat.s: Chat.cpp.s
 
 # target to generate assembly for a file
 Chat.cpp.s:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Chat.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Chat.cpp.s
 .PHONY : Chat.cpp.s
 
 ContactList.o: ContactList.cpp.o
@@ -156,7 +280,7 @@ ContactList.o: ContactList.cpp.o
 
 # target to build an object file
 ContactList.cpp.o:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/ContactList.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ContactList.cpp.o
 .PHONY : ContactList.cpp.o
 
 ContactList.i: ContactList.cpp.i
@@ -165,7 +289,7 @@ ContactList.i: ContactList.cpp.i
 
 # target to preprocess a source file
 ContactList.cpp.i:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/ContactList.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ContactList.cpp.i
 .PHONY : ContactList.cpp.i
 
 ContactList.s: ContactList.cpp.s
@@ -174,7 +298,7 @@ ContactList.s: ContactList.cpp.s
 
 # target to generate assembly for a file
 ContactList.cpp.s:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/ContactList.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ContactList.cpp.s
 .PHONY : ContactList.cpp.s
 
 Message.o: Message.cpp.o
@@ -183,7 +307,7 @@ Message.o: Message.cpp.o
 
 # target to build an object file
 Message.cpp.o:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Message.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Message.cpp.o
 .PHONY : Message.cpp.o
 
 Message.i: Message.cpp.i
@@ -192,7 +316,7 @@ Message.i: Message.cpp.i
 
 # target to preprocess a source file
 Message.cpp.i:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Message.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Message.cpp.i
 .PHONY : Message.cpp.i
 
 Message.s: Message.cpp.s
@@ -201,7 +325,7 @@ Message.s: Message.cpp.s
 
 # target to generate assembly for a file
 Message.cpp.s:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Message.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Message.cpp.s
 .PHONY : Message.cpp.s
 
 MessageNotifier.o: MessageNotifier.cpp.o
@@ -210,7 +334,7 @@ MessageNotifier.o: MessageNotifier.cpp.o
 
 # target to build an object file
 MessageNotifier.cpp.o:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/MessageNotifier.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MessageNotifier.cpp.o
 .PHONY : MessageNotifier.cpp.o
 
 MessageNotifier.i: MessageNotifier.cpp.i
@@ -219,7 +343,7 @@ MessageNotifier.i: MessageNotifier.cpp.i
 
 # target to preprocess a source file
 MessageNotifier.cpp.i:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/MessageNotifier.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MessageNotifier.cpp.i
 .PHONY : MessageNotifier.cpp.i
 
 MessageNotifier.s: MessageNotifier.cpp.s
@@ -228,7 +352,7 @@ MessageNotifier.s: MessageNotifier.cpp.s
 
 # target to generate assembly for a file
 MessageNotifier.cpp.s:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/MessageNotifier.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/MessageNotifier.cpp.s
 .PHONY : MessageNotifier.cpp.s
 
 Observer.o: Observer.cpp.o
@@ -237,7 +361,7 @@ Observer.o: Observer.cpp.o
 
 # target to build an object file
 Observer.cpp.o:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Observer.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Observer.cpp.o
 .PHONY : Observer.cpp.o
 
 Observer.i: Observer.cpp.i
@@ -246,7 +370,7 @@ Observer.i: Observer.cpp.i
 
 # target to preprocess a source file
 Observer.cpp.i:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Observer.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Observer.cpp.i
 .PHONY : Observer.cpp.i
 
 Observer.s: Observer.cpp.s
@@ -255,7 +379,7 @@ Observer.s: Observer.cpp.s
 
 # target to generate assembly for a file
 Observer.cpp.s:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Observer.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Observer.cpp.s
 .PHONY : Observer.cpp.s
 
 Subject.o: Subject.cpp.o
@@ -264,7 +388,7 @@ Subject.o: Subject.cpp.o
 
 # target to build an object file
 Subject.cpp.o:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Subject.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Subject.cpp.o
 .PHONY : Subject.cpp.o
 
 Subject.i: Subject.cpp.i
@@ -273,7 +397,7 @@ Subject.i: Subject.cpp.i
 
 # target to preprocess a source file
 Subject.cpp.i:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Subject.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Subject.cpp.i
 .PHONY : Subject.cpp.i
 
 Subject.s: Subject.cpp.s
@@ -282,7 +406,7 @@ Subject.s: Subject.cpp.s
 
 # target to generate assembly for a file
 Subject.cpp.s:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/Subject.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Subject.cpp.s
 .PHONY : Subject.cpp.s
 
 User.o: User.cpp.o
@@ -291,7 +415,7 @@ User.o: User.cpp.o
 
 # target to build an object file
 User.cpp.o:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/User.cpp.o
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/User.cpp.o
 .PHONY : User.cpp.o
 
 User.i: User.cpp.i
@@ -300,7 +424,7 @@ User.i: User.cpp.i
 
 # target to preprocess a source file
 User.cpp.i:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/User.cpp.i
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/User.cpp.i
 .PHONY : User.cpp.i
 
 User.s: User.cpp.s
@@ -309,7 +433,7 @@ User.s: User.cpp.s
 
 # target to generate assembly for a file
 User.cpp.s:
-	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/User.cpp.s
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/User.cpp.s
 .PHONY : User.cpp.s
 
 main.o: main.cpp.o
@@ -318,6 +442,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -327,6 +452,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -336,8 +462,117 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/CChat.dir/build.make CMakeFiles/CChat.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+test/ChatTest.o: test/ChatTest.cpp.o
+
+.PHONY : test/ChatTest.o
+
+# target to build an object file
+test/ChatTest.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/ChatTest.cpp.o
+.PHONY : test/ChatTest.cpp.o
+
+test/ChatTest.i: test/ChatTest.cpp.i
+
+.PHONY : test/ChatTest.i
+
+# target to preprocess a source file
+test/ChatTest.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/ChatTest.cpp.i
+.PHONY : test/ChatTest.cpp.i
+
+test/ChatTest.s: test/ChatTest.cpp.s
+
+.PHONY : test/ChatTest.s
+
+# target to generate assembly for a file
+test/ChatTest.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/ChatTest.cpp.s
+.PHONY : test/ChatTest.cpp.s
+
+test/MessageTest.o: test/MessageTest.cpp.o
+
+.PHONY : test/MessageTest.o
+
+# target to build an object file
+test/MessageTest.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/MessageTest.cpp.o
+.PHONY : test/MessageTest.cpp.o
+
+test/MessageTest.i: test/MessageTest.cpp.i
+
+.PHONY : test/MessageTest.i
+
+# target to preprocess a source file
+test/MessageTest.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/MessageTest.cpp.i
+.PHONY : test/MessageTest.cpp.i
+
+test/MessageTest.s: test/MessageTest.cpp.s
+
+.PHONY : test/MessageTest.s
+
+# target to generate assembly for a file
+test/MessageTest.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/MessageTest.cpp.s
+.PHONY : test/MessageTest.cpp.s
+
+test/UserTest.o: test/UserTest.cpp.o
+
+.PHONY : test/UserTest.o
+
+# target to build an object file
+test/UserTest.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/UserTest.cpp.o
+.PHONY : test/UserTest.cpp.o
+
+test/UserTest.i: test/UserTest.cpp.i
+
+.PHONY : test/UserTest.i
+
+# target to preprocess a source file
+test/UserTest.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/UserTest.cpp.i
+.PHONY : test/UserTest.cpp.i
+
+test/UserTest.s: test/UserTest.cpp.s
+
+.PHONY : test/UserTest.s
+
+# target to generate assembly for a file
+test/UserTest.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/UserTest.cpp.s
+.PHONY : test/UserTest.cpp.s
+
+test/runAllTests.o: test/runAllTests.cpp.o
+
+.PHONY : test/runAllTests.o
+
+# target to build an object file
+test/runAllTests.cpp.o:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/runAllTests.cpp.o
+.PHONY : test/runAllTests.cpp.o
+
+test/runAllTests.i: test/runAllTests.cpp.i
+
+.PHONY : test/runAllTests.i
+
+# target to preprocess a source file
+test/runAllTests.cpp.i:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/runAllTests.cpp.i
+.PHONY : test/runAllTests.cpp.i
+
+test/runAllTests.s: test/runAllTests.cpp.s
+
+.PHONY : test/runAllTests.s
+
+# target to generate assembly for a file
+test/runAllTests.cpp.s:
+	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/test/runAllTests.cpp.s
+.PHONY : test/runAllTests.cpp.s
 
 # Help Target
 help:
@@ -345,9 +580,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... core"
 	@echo "... rebuild_cache"
 	@echo "... CChat"
 	@echo "... edit_cache"
+	@echo "... list_install_components"
+	@echo "... install"
+	@echo "... runAllTests"
+	@echo "... gmock_main"
+	@echo "... gmock"
+	@echo "... gtest_main"
+	@echo "... gtest"
 	@echo "... Chat.o"
 	@echo "... Chat.i"
 	@echo "... Chat.s"
@@ -372,6 +617,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/ChatTest.o"
+	@echo "... test/ChatTest.i"
+	@echo "... test/ChatTest.s"
+	@echo "... test/MessageTest.o"
+	@echo "... test/MessageTest.i"
+	@echo "... test/MessageTest.s"
+	@echo "... test/UserTest.o"
+	@echo "... test/UserTest.i"
+	@echo "... test/UserTest.s"
+	@echo "... test/runAllTests.o"
+	@echo "... test/runAllTests.i"
+	@echo "... test/runAllTests.s"
 .PHONY : help
 
 

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pela/Repositories/CChat/Message.h
+string
+-
+
+/home/pela/Repositories/CChat/User.h
+string
+-
+
+/home/pela/Repositories/CChat/test/MessageTest.cpp
+gtest/gtest.h
+-
+../Message.h
+/home/pela/Repositories/CChat/Message.h
+
+/home/pela/Repositories/CChat/test/UserTest.cpp
+gtest/gtest.h
+-
+../User.h
+/home/pela/Repositories/CChat/User.h
+

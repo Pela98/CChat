@@ -5,6 +5,7 @@
 #ifndef CCHAT_OBSERVER_H
 #define CCHAT_OBSERVER_H
 
+#include <memory>
 
 class Observer {
 public:

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <time.h>
+#include <memory>
 #include "User.h"
 #include "Message.h"
 #include "Chat.h"
@@ -11,9 +12,10 @@ using namespace std;
 int main() {
     const string n1 = "3331234567", n2 = "3390987654";
     User Lorenzo(n1,"Lorenzo"), Luca(n2,"Luca");
-    Message foo(n1,"3390987654","Foo.","17/09/19 09:11"), bar(n2,"3331234567","Bar.","17/09/19 09:15"), barfoo("0000000000","1111111111","BarFoo","17/09/19 09:20");
+    Message foo(n1,n2,"Foo.","17/09/19 09:11"), bar(n2,n1,"Bar.","17/09/19 09:15"), barfoo("0000000000","1111111111","BarFoo","17/09/19 09:20");
     Chat foobar(Lorenzo,Luca);
-    MessageNotifier notifier(true,&foobar);
+    shared_ptr<Chat> foobarptr = make_shared<Chat>(foobar);
+    MessageNotifier notifier(true,(foobarptr));
     notifier.attach();
     foobar.addMessage(foo);
     foobar.addMessage(bar);

@@ -11,16 +11,14 @@
 #include "User.h"
 #include <vector>
 #include <list>
+#include <memory>
 #include <iostream>
 
 
 class Chat: public Subject{
 public:
     Chat(User& mn,User& on): myUser(mn), otherUser(on){}
-    ~Chat(){
-        for (auto obs:observers)
-            observers.remove(obs);
-    }
+    ~Chat(){}
     void addMessage(const Message& newMsg){
         if((myUser.getNumber()==newMsg.getReceiver()||myUser.getNumber()==newMsg.getSender())&&(otherUser.getNumber()==newMsg.getSender()||otherUser.getNumber()==newMsg.getReceiver())) {
             messages.push_back(newMsg);
@@ -58,10 +56,10 @@ public:
                     i++;
         return i;
     }
-    virtual void subscribe(Observer* observer) override{
+    virtual void subscribe(std::shared_ptr<Observer> observer) override{
         observers.push_back(observer);
     }
-    virtual void unsubscribe(Observer* observer) override{
+    virtual void unsubscribe(std::shared_ptr<Observer> observer) override{
         observers.remove(observer);
     }
     virtual void notify() override{
@@ -82,7 +80,7 @@ public:
 
 private:
 
-    std::list<Observer*> observers;
+    std::list<std::shared_ptr<Observer>> observers;
     std::vector<Message> messages;
     User& myUser;
     User& otherUser;

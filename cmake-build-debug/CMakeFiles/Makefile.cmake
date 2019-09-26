@@ -7,21 +7,32 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeDependentOption.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeFindCodeBlocks.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeGenericSystem.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeInitializeConfigs.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakePackageConfigHelpers.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CheckIncludeFile.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CheckLibraryExists.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/CheckSymbolExists.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU-C.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU-CXX.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageMessage.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/FindPythonInterp.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/FindThreads.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/GNUInstallDirs.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux-GNU-C.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -29,10 +40,21 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/Platform/UnixPaths.cmake"
   "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/ProcessorCount.cmake"
+  "/home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/share/cmake-3.14/Modules/WriteBasicConfigVersionFile.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.14.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.2/CMakeSystem.cmake"
+  "../test/CMakeLists.txt"
+  "../test/lib/googletest/CMakeLists.txt"
+  "../test/lib/googletest/googlemock/CMakeLists.txt"
+  "../test/lib/googletest/googlemock/cmake/gmock.pc.in"
+  "../test/lib/googletest/googlemock/cmake/gmock_main.pc.in"
+  "../test/lib/googletest/googletest/CMakeLists.txt"
+  "../test/lib/googletest/googletest/cmake/Config.cmake.in"
+  "../test/lib/googletest/googletest/cmake/gtest.pc.in"
+  "../test/lib/googletest/googletest/cmake/gtest_main.pc.in"
+  "../test/lib/googletest/googletest/cmake/internal_utils.cmake"
   )
 
 # The corresponding makefile is:
@@ -44,9 +66,19 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/lib/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/lib/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/core.dir/DependInfo.cmake"
   "CMakeFiles/CChat.dir/DependInfo.cmake"
+  "test/CMakeFiles/runAllTests.dir/DependInfo.cmake"
+  "test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "test/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )

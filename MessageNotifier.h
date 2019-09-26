@@ -7,16 +7,19 @@
 
 #include "Observer.h"
 #include "Chat.h"
+#include <memory>
 
 class MessageNotifier: public Observer {
 public:
-    MessageNotifier(bool act, Chat* sub) : active(act), subject(sub){}
+    MessageNotifier(bool act, std::shared_ptr<Chat> sub) : active(act), subject(sub){}
     virtual ~MessageNotifier(){}
     virtual void attach() override{
-        subject->subscribe(this);
+        std::shared_ptr<MessageNotifier> ths = std::make_shared<MessageNotifier>(*this);
+        subject->subscribe(ths);
     }
     virtual void detach() override{
-        subject->unsubscribe(this);
+        std::shared_ptr<MessageNotifier> ths = std::make_shared<MessageNotifier>(*this);
+        subject->unsubscribe(ths);
     }
     virtual void update() override{
         if (active)
@@ -32,12 +35,12 @@ public:
         std::cout << "Hai " << um <<" messaggi non letti" << std::endl;
         std::cout << "ultimo messaggio da parte di " << subject->lastMessage().getSender() << ": " << subject->lastMessage().getText() << "..." << std::endl;
     }
-    Chat* getSubject(){
+    std::shared_ptr<Chat> getSubject(){
         return subject;
     }
 private:
     bool active;
-    Chat* subject;
+    std::shared_ptr<Chat> subject;
 };
 
 
