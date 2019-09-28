@@ -43,10 +43,10 @@ RM = /home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pela/Repositories/CChat
+CMAKE_SOURCE_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pela/Repositories/CChat/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -59,16 +59,16 @@ include test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 
 test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: ../test/lib/googletest/googlemock/src/gmock_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/pela/Repositories/CChat/test/lib/googletest/googlemock/src/gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googlemock/src/gmock_main.cc"
 
 test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/test/lib/googletest/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googlemock/src/gmock_main.cc" > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 
 test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/test/lib/googletest/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googlemock/src/gmock_main.cc" -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 
 # Object files for target gmock_main
 gmock_main_OBJECTS = \
@@ -80,9 +80,9 @@ gmock_main_EXTERNAL_OBJECTS =
 lib/libgmock_maind.a: test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 lib/libgmock_maind.a: test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make
 lib/libgmock_maind.a: test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgmock_maind.a"
-	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
-	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgmock_maind.a"
+	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
+	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_maind.a
@@ -90,10 +90,10 @@ test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_mai
 .PHONY : test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
 
 test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
+	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock" && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
 .PHONY : test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/clean
 
 test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/pela/Repositories/CChat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pela/Repositories/CChat /home/pela/Repositories/CChat/test/lib/googletest/googlemock /home/pela/Repositories/CChat/cmake-build-debug /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pela/Desktop/Untitled Folder 3/CChat-master" "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googlemock" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 

@@ -12,8 +12,8 @@ User Luca("3390987654","Luca");
 
 TEST(Chat, TestChatGetters){
 Chat LL(Lorenzo,Luca);
-ASSERT_EQ(LL.getMyUser(), "Lorenzo");
-ASSERT_EQ(LL.getOtherUser(),"Luca");
+ASSERT_EQ(LL.getMyUser().getName(), "Lorenzo");
+ASSERT_EQ(LL.getOtherUser().getName(),"Luca");
 }
 
 TEST(Chat,TestChatMethods){

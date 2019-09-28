@@ -28,7 +28,9 @@ public:
         return number;
     }
 
-
+    bool operator==(const User &right) const {
+        return this->getName()==right.getName() && this->getNumber()==right.getNumber();
+    }
 
 private:
     std::string nickname,number;

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pela/Repositories/CChat/test/lib/googletest/googlemock/src/gmock_main.cc" "/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googlemock/src/gmock_main.cc" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/pela/Repositories/CChat/test/lib/googletest
+# Install script for directory: /home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/cmake_install.cmake")
+  include("/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

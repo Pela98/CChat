@@ -40,6 +40,12 @@ public:
     }
 
 
+
+    bool operator==(const Message &right) const {
+        return this->getReceiver()==right.getReceiver() && this->getSender()==right.getSender() && this->getText()==right.getText() && this->getTimestamp()==right.timestamp && this->isRead()==right.isRead();
+    }
+
+
 private:
 
     bool read;

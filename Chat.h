@@ -68,13 +68,20 @@ public:
     }
 
 
-    User &getMyUser() const {
+    const User &getMyUser() const {
         return myUser;
     }
 
+    void setMyUser(const User &myUser) {
+        Chat::myUser = myUser;
+    }
 
-    User &getOtherUser() const {
+    const User &getOtherUser() const {
         return otherUser;
+    }
+
+    void setOtherUser(const User &otherUser) {
+        Chat::otherUser = otherUser;
     }
 
 
@@ -82,8 +89,8 @@ private:
 
     std::list<std::shared_ptr<Observer>> observers;
     std::vector<Message> messages;
-    User& myUser;
-    User& otherUser;
+    User myUser;
+    User otherUser;
 };
 
 

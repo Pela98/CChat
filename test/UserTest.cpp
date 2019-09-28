@@ -9,7 +9,7 @@
 TEST(User, TestUser) {
 User Lorenzo("3331234567","Lorenzo");
 ASSERT_EQ(Lorenzo.getName(), "Lorenzo");
-ASSERT_EQ(Lorenzo.getNumber(), "3331234567")
+ASSERT_EQ(Lorenzo.getNumber(), "3331234567");
 Lorenzo.ChangeName("Luca");
 ASSERT_EQ(Lorenzo.getName(), "Luca");
 }

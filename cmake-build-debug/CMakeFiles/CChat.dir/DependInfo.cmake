@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pela/Repositories/CChat/main.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/CChat.dir/main.cpp.o"
+  "/home/pela/Desktop/Untitled Folder 3/CChat-master/main.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/CChat.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
