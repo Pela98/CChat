@@ -43,10 +43,10 @@ RM = /home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master"
+CMAKE_SOURCE_DIR = /home/pela/Repositories/CChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/pela/Repositories/CChat/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include test/lib/googletest/googletest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include test/lib/googletest/googletest/CMakeFiles/gtest.dir/flags.make
 
 test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: test/lib/googletest/googletest/CMakeFiles/gtest.dir/flags.make
 test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ../test/lib/googletest/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googletest/src/gtest-all.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/pela/Repositories/CChat/test/lib/googletest/googletest/src/gtest-all.cc
 
 test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googletest/src/gtest-all.cc" > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pela/Repositories/CChat/test/lib/googletest/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googletest/src/gtest-all.cc" -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pela/Repositories/CChat/test/lib/googletest/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -80,9 +80,9 @@ gtest_EXTERNAL_OBJECTS =
 lib/libgtestd.a: test/lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 lib/libgtestd.a: test/lib/googletest/googletest/CMakeFiles/gtest.dir/build.make
 lib/libgtestd.a: test/lib/googletest/googletest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgtestd.a"
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgtestd.a"
+	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/lib/googletest/googletest/CMakeFiles/gtest.dir/build: lib/libgtestd.a
@@ -90,10 +90,10 @@ test/lib/googletest/googletest/CMakeFiles/gtest.dir/build: lib/libgtestd.a
 .PHONY : test/lib/googletest/googletest/CMakeFiles/gtest.dir/build
 
 test/lib/googletest/googletest/CMakeFiles/gtest.dir/clean:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : test/lib/googletest/googletest/CMakeFiles/gtest.dir/clean
 
 test/lib/googletest/googletest/CMakeFiles/gtest.dir/depend:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/pela/Desktop/Untitled Folder 3/CChat-master" "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googletest" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pela/Repositories/CChat /home/pela/Repositories/CChat/test/lib/googletest/googletest /home/pela/Repositories/CChat/cmake-build-debug /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest /home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/lib/googletest/googletest/CMakeFiles/gtest.dir/depend
 

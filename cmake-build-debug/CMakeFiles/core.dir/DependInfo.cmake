@@ -4,18 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/Chat.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/Chat.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/ContactList.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/ContactList.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/Message.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/Message.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/MessageNotifier.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/MessageNotifier.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/Observer.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/Observer.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/Subject.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/Subject.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/User.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/User.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/main.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/main.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/ChatTest.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/test/ChatTest.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/MessageTest.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/test/MessageTest.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/UserTest.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/test/UserTest.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/runAllTests.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/test/runAllTests.cpp.o"
+  "/home/pela/Repositories/CChat/Chat.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/Chat.cpp.o"
+  "/home/pela/Repositories/CChat/Message.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/Message.cpp.o"
+  "/home/pela/Repositories/CChat/MessageNotifier.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/MessageNotifier.cpp.o"
+  "/home/pela/Repositories/CChat/Observer.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/Observer.cpp.o"
+  "/home/pela/Repositories/CChat/Subject.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/Subject.cpp.o"
+  "/home/pela/Repositories/CChat/User.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/User.cpp.o"
+  "/home/pela/Repositories/CChat/main.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/main.cpp.o"
+  "/home/pela/Repositories/CChat/test/ChatTest.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/test/ChatTest.cpp.o"
+  "/home/pela/Repositories/CChat/test/MessageTest.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/test/MessageTest.cpp.o"
+  "/home/pela/Repositories/CChat/test/UserTest.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/test/UserTest.cpp.o"
+  "/home/pela/Repositories/CChat/test/runAllTests.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/test/runAllTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

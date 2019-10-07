@@ -48,10 +48,10 @@ RM = /home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master"
+CMAKE_SOURCE_DIR = /home/pela/Repositories/CChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/pela/Repositories/CChat/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -273,33 +273,6 @@ Chat.s: Chat.cpp.s
 Chat.cpp.s:
 	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/Chat.cpp.s
 .PHONY : Chat.cpp.s
-
-ContactList.o: ContactList.cpp.o
-
-.PHONY : ContactList.o
-
-# target to build an object file
-ContactList.cpp.o:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ContactList.cpp.o
-.PHONY : ContactList.cpp.o
-
-ContactList.i: ContactList.cpp.i
-
-.PHONY : ContactList.i
-
-# target to preprocess a source file
-ContactList.cpp.i:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ContactList.cpp.i
-.PHONY : ContactList.cpp.i
-
-ContactList.s: ContactList.cpp.s
-
-.PHONY : ContactList.s
-
-# target to generate assembly for a file
-ContactList.cpp.s:
-	$(MAKE) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/ContactList.cpp.s
-.PHONY : ContactList.cpp.s
 
 Message.o: Message.cpp.o
 
@@ -596,9 +569,6 @@ help:
 	@echo "... Chat.o"
 	@echo "... Chat.i"
 	@echo "... Chat.s"
-	@echo "... ContactList.o"
-	@echo "... ContactList.i"
-	@echo "... ContactList.s"
 	@echo "... Message.o"
 	@echo "... Message.i"
 	@echo "... Message.s"

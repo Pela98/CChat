@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/CChat.dir/main.cpp.o  -o CChat -lSOURCE_FILES 
+/usr/bin/c++  -g   CMakeFiles/CChat.dir/main.cpp.o  -o CChat libcore.a 

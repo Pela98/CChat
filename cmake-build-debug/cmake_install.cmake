@@ -1,4 +1,4 @@
-# Install script for directory: /home/pela/Desktop/Untitled Folder 3/CChat-master
+# Install script for directory: /home/pela/Repositories/CChat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/cmake_install.cmake")
+  include("/home/pela/Repositories/CChat/cmake-build-debug/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pela/Repositories/CChat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

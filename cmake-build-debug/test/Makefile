@@ -48,10 +48,10 @@ RM = /home/pela/Desktop/Clion/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master"
+CMAKE_SOURCE_DIR = /home/pela/Repositories/CChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/pela/Repositories/CChat/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/progress.marks"
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles" 0
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles /home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/progress.marks
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/runAllTests.dir/rule:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTests.dir/rule
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTests.dir/rule
 .PHONY : test/CMakeFiles/runAllTests.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ runAllTests: test/CMakeFiles/runAllTests.dir/rule
 
 # fast build rule for target.
 runAllTests/fast:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
 .PHONY : runAllTests/fast
 
 ChatTest.o: ChatTest.cpp.o
@@ -177,7 +177,7 @@ ChatTest.o: ChatTest.cpp.o
 
 # target to build an object file
 ChatTest.cpp.o:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/ChatTest.cpp.o
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/ChatTest.cpp.o
 .PHONY : ChatTest.cpp.o
 
 ChatTest.i: ChatTest.cpp.i
@@ -186,7 +186,7 @@ ChatTest.i: ChatTest.cpp.i
 
 # target to preprocess a source file
 ChatTest.cpp.i:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/ChatTest.cpp.i
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/ChatTest.cpp.i
 .PHONY : ChatTest.cpp.i
 
 ChatTest.s: ChatTest.cpp.s
@@ -195,7 +195,7 @@ ChatTest.s: ChatTest.cpp.s
 
 # target to generate assembly for a file
 ChatTest.cpp.s:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/ChatTest.cpp.s
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/ChatTest.cpp.s
 .PHONY : ChatTest.cpp.s
 
 MessageTest.o: MessageTest.cpp.o
@@ -204,7 +204,7 @@ MessageTest.o: MessageTest.cpp.o
 
 # target to build an object file
 MessageTest.cpp.o:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/MessageTest.cpp.o
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/MessageTest.cpp.o
 .PHONY : MessageTest.cpp.o
 
 MessageTest.i: MessageTest.cpp.i
@@ -213,7 +213,7 @@ MessageTest.i: MessageTest.cpp.i
 
 # target to preprocess a source file
 MessageTest.cpp.i:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/MessageTest.cpp.i
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/MessageTest.cpp.i
 .PHONY : MessageTest.cpp.i
 
 MessageTest.s: MessageTest.cpp.s
@@ -222,7 +222,7 @@ MessageTest.s: MessageTest.cpp.s
 
 # target to generate assembly for a file
 MessageTest.cpp.s:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/MessageTest.cpp.s
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/MessageTest.cpp.s
 .PHONY : MessageTest.cpp.s
 
 UserTest.o: UserTest.cpp.o
@@ -231,7 +231,7 @@ UserTest.o: UserTest.cpp.o
 
 # target to build an object file
 UserTest.cpp.o:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/UserTest.cpp.o
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/UserTest.cpp.o
 .PHONY : UserTest.cpp.o
 
 UserTest.i: UserTest.cpp.i
@@ -240,7 +240,7 @@ UserTest.i: UserTest.cpp.i
 
 # target to preprocess a source file
 UserTest.cpp.i:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/UserTest.cpp.i
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/UserTest.cpp.i
 .PHONY : UserTest.cpp.i
 
 UserTest.s: UserTest.cpp.s
@@ -249,7 +249,7 @@ UserTest.s: UserTest.cpp.s
 
 # target to generate assembly for a file
 UserTest.cpp.s:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/UserTest.cpp.s
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/UserTest.cpp.s
 .PHONY : UserTest.cpp.s
 
 runAllTests.o: runAllTests.cpp.o
@@ -258,7 +258,7 @@ runAllTests.o: runAllTests.cpp.o
 
 # target to build an object file
 runAllTests.cpp.o:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o
 .PHONY : runAllTests.cpp.o
 
 runAllTests.i: runAllTests.cpp.i
@@ -267,7 +267,7 @@ runAllTests.i: runAllTests.cpp.i
 
 # target to preprocess a source file
 runAllTests.cpp.i:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i
 .PHONY : runAllTests.cpp.i
 
 runAllTests.s: runAllTests.cpp.s
@@ -276,7 +276,7 @@ runAllTests.s: runAllTests.cpp.s
 
 # target to generate assembly for a file
 runAllTests.cpp.s:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s
 .PHONY : runAllTests.cpp.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pela/Repositories/CChat/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

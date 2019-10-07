@@ -8,10 +8,6 @@ CMakeFiles/core.dir/Chat.cpp.o: ../Observer.h
 CMakeFiles/core.dir/Chat.cpp.o: ../Subject.h
 CMakeFiles/core.dir/Chat.cpp.o: ../User.h
 
-CMakeFiles/core.dir/ContactList.cpp.o: ../ContactList.cpp
-CMakeFiles/core.dir/ContactList.cpp.o: ../ContactList.h
-CMakeFiles/core.dir/ContactList.cpp.o: ../User.h
-
 CMakeFiles/core.dir/Message.cpp.o: ../Message.cpp
 CMakeFiles/core.dir/Message.cpp.o: ../Message.h
 

@@ -1,37 +1,37 @@
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/install/strip.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/install/local.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/CChat.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/list_install_components.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/install.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/install/strip.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/edit_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/install.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/runAllTests.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/list_install_components.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/install/local.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/CMakeFiles/install/strip.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/CMakeFiles/install.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/CMakeFiles/install/local.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/CMakeFiles/list_install_components.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/install/strip.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/install/local.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/list_install_components.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/rebuild_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/edit_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/install.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/install/strip.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/install/local.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/edit_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/list_install_components.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/rebuild_cache.dir
-/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/install.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/install/local.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/CChat.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/install.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/install/strip.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/install.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/runAllTests.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/list_install_components.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/install/local.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/CMakeFiles/install/strip.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/CMakeFiles/install.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/CMakeFiles/install/local.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/CMakeFiles/list_install_components.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/install/strip.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/install/local.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock_main.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/list_install_components.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/gmock.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/rebuild_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/edit_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googlemock/CMakeFiles/install.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/install/strip.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/install/local.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/edit_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/list_install_components.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/rebuild_cache.dir
+/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/install.dir

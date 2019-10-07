@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googletest/include" -isystem "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/lib/googletest/googletest" 
+CXX_INCLUDES = -isystem /home/pela/Repositories/CChat/test/lib/googletest/googletest/include -isystem /home/pela/Repositories/CChat/test/lib/googletest/googletest 
 

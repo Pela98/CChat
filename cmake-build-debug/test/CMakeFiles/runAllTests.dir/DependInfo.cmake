@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/ChatTest.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/runAllTests.dir/ChatTest.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/MessageTest.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/runAllTests.dir/MessageTest.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/UserTest.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/runAllTests.dir/UserTest.cpp.o"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/test/runAllTests.cpp" "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o"
+  "/home/pela/Repositories/CChat/test/ChatTest.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/runAllTests.dir/ChatTest.cpp.o"
+  "/home/pela/Repositories/CChat/test/MessageTest.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/runAllTests.dir/MessageTest.cpp.o"
+  "/home/pela/Repositories/CChat/test/UserTest.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/runAllTests.dir/UserTest.cpp.o"
+  "/home/pela/Repositories/CChat/test/runAllTests.cpp" "/home/pela/Repositories/CChat/cmake-build-debug/test/CMakeFiles/runAllTests.dir/runAllTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,9 +19,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/pela/Desktop/Untitled Folder 3/CChat-master/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake"
+  "/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/pela/Repositories/CChat/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/pela/Repositories/CChat/cmake-build-debug/CMakeFiles/core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
